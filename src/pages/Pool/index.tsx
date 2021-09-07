@@ -119,8 +119,11 @@ export default function Pool() {
                   </StyledInternalLink>
                 </Text>
                 <Text fontSize="14px" style={{ padding: '.5rem 0 .5rem 0' }}>
-                  Or, if you staked your LP tokens in a farm, unstake them to see them here.
+                  Or, if you staked your LP tokens in a farm, unstake them to see them here, or add a pool you joined but dont see.
                 </Text>
+                <Button id="join-pool-button" as={Link} to="/find">
+                  <TranslatedText translationId={100}>Add</TranslatedText>
+                </Button>
               </div>
             </AutoColumn>
           </CardBody>

@@ -1,15 +1,15 @@
 {
-  "short_name": "GooseFinance",
-  "name": "GooseFinance",
+  "short_name": "TrollFace DeFI",
+  "name": "TrollFace DeFI",
+  "description": "Earn TROLL through yield",
   "icons": [
     {
-      "src": "./logo.png",
-      "sizes": "160x160",
+      "src": "logo.png",
       "type": "image/png",
-      "purpose": "any maskable"
+      "sizes": "2591x2095"
     }
   ],
-  "orientation": "portrait",
+  "start_url": ".",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff"

@@ -6,8 +6,8 @@ import QuestionHelper from '../QuestionHelper'
 import TranslatedText from '../TranslatedText'
 
 const MAX_SLIPPAGE = 5000
-const RISKY_SLIPPAGE_LOW = 50
-const RISKY_SLIPPAGE_HIGH = 500
+const RISKY_SLIPPAGE_LOW = 500
+const RISKY_SLIPPAGE_HIGH = 1500
 
 const StyledSlippageToleranceSettings = styled.div`
   margin-bottom: 16px;
@@ -42,9 +42,9 @@ const Label = styled.div`
 `
 
 const predefinedValues = [
-  { label: '0.1%', value: 0.1 },
-  { label: '0.5%', value: 0.5 },
-  { label: '1%', value: 1 }
+  { label: '5%', value: 5 },
+  { label: '10%', value: 10 },
+  { label: '15%', value: 15 }
 ]
 
 const SlippageToleranceSettings = () => {

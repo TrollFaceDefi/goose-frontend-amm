@@ -1,0 +1,35 @@
+{
+  "name": "pancakeswap",
+  "timestamp": "2020-08-25T15:41:29.665Z",
+  "version": {
+    "major": 1,
+    "minor": 3,
+    "patch": 1  
+  },
+  "tags": {},
+  "logoURI": "/images/coins/wbnb.png",
+  "keywords": ["pancake", "default"],
+  "tokens": [
+    
+ 
+
+        {
+      "name": "Goose Token",
+      "symbol": "GOOSE",
+      "address": "0x19020C5130793d97E9Acc85c7701262A9b774Fec",
+      "chainId": 56,
+      "decimals": 18
+
+    },
+
+        {
+      "name": "Flock",
+      "symbol": "FLOCK",
+      "address": "0x2BABa6cbBddE0E8EaB3F1154beD1A5950189Cab4",
+      "chainId": 56,
+      "decimals": 18
+    }
+
+
+  ]
+}
